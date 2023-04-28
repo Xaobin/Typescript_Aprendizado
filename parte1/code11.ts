@@ -18,7 +18,8 @@ console.log("=====================================");
 /*
  Alias ​​de tipo (type aliases)
 
- Estamos usando tipos de objeto e tipos de união escrevendo-os diretamente em anotações de tipo.  Isso é conveniente, mas é comum querer usar o mesmo tipo mais de uma vez e se referir a ele por um único nome.
+ Estamos usando tipos de objeto e tipos de união escrevendo-os diretamente em anotações de tipo.  
+ Isso é conveniente, mas é comum querer usar o mesmo tipo mais de uma vez e se referir a ele por um único nome.
 
  Um alias de tipo é exatamente isso - um nome para qualquer tipo.  A sintaxe para um alias de tipo é:
  */
