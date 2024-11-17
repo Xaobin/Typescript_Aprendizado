@@ -1,12 +1,13 @@
 //APRENDIZADO TYPESCRIPT  -Everyday types, Array, push, spread operator
 /* https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays
 */
-//==============================
+//=====================
 console.log("==Pessoas[2]====");
 let pessoas: string[] = ['Marília', 'Claire', 'Poliana', 'Janaína', 'Xênia'];
 console.log(pessoas[2]);
 
-//====== Array Object (Objeto Array):
+//Array Object 
+//(Objeto Array):
 console.log("============= Refrigerantes[3] - Array <string>");
 let refrigerantes: Array<string> = ['Coca-cola', 'Pepsi', 'Sprite', 'Fanta', '7up'];
 console.log(refrigerantes[3]);
