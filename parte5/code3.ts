@@ -41,7 +41,7 @@ entre instâncias da classe. Para declarar um método estático, use a
 palavra- staticchave antes do nome do método. 
 Por exemplo:
 */
-class Employee {
+class EmployeeII {
     private static headcount: number = 0;
 
     constructor(
@@ -67,10 +67,10 @@ da headcountpropriedade estática.
 Para chamar um método estático, você usa a className.staticMethod()sintaxe. 
 Por exemplo:
 */
-let john = new Employee('John', 'Doe', 'Front-end Developer');
-let jane = new Employee('Jane', 'Doe', 'Back-end Developer');
+let johnII = new EmployeeII('John', 'Doe', 'Front-end Developer');
+let janeII = new EmployeeII('Jane', 'Doe', 'Back-end Developer');
 
-console.log(Employee.getHeadcount); // 2
+console.log(EmployeeII.getHeadcount()); // 2
 /*
 Na prática, você encontrará a biblioteca que contém muitas propriedades e 
 métodos estáticos como o Mathobjeto. Tem PI, E, … propriedades estáticas e
